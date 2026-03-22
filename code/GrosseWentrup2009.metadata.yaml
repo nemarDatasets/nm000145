@@ -1,0 +1,266 @@
+_dataset:
+  class: GrosseWentrup2009
+  code: GrosseWentrup2009
+  doi: 10.1109/TBME.2008.2009768
+  interval:
+  - 0
+  - 7
+  n_subjects: 10
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 128
+  filters:
+    highpass_time_constant_s: 10
+  hardware: BrainAmp
+  impedance_threshold_kohm: 10
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 128
+  reference: Cz
+  sampling_rate: 500.0
+  sensors:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '10'
+  - '11'
+  - '12'
+  - '13'
+  - '14'
+  - '15'
+  - '16'
+  - '17'
+  - '18'
+  - '19'
+  - '20'
+  - '21'
+  - '22'
+  - '23'
+  - '24'
+  - '25'
+  - '26'
+  - '27'
+  - '28'
+  - '29'
+  - '30'
+  - '31'
+  - '32'
+  - '33'
+  - '34'
+  - '35'
+  - '36'
+  - '37'
+  - '38'
+  - '39'
+  - '40'
+  - '41'
+  - '42'
+  - '43'
+  - '44'
+  - '45'
+  - '46'
+  - '47'
+  - '48'
+  - '49'
+  - '50'
+  - '51'
+  - '52'
+  - '53'
+  - '54'
+  - '55'
+  - '56'
+  - '57'
+  - '58'
+  - '59'
+  - '60'
+  - '61'
+  - '62'
+  - '63'
+  - '64'
+  - '65'
+  - '66'
+  - '67'
+  - '68'
+  - '69'
+  - '70'
+  - '71'
+  - '72'
+  - '73'
+  - '74'
+  - '75'
+  - '76'
+  - '77'
+  - '78'
+  - '79'
+  - '80'
+  - '81'
+  - '82'
+  - '83'
+  - '84'
+  - '85'
+  - '86'
+  - '87'
+  - '88'
+  - '89'
+  - '90'
+  - '91'
+  - '92'
+  - '93'
+  - '94'
+  - '95'
+  - '96'
+  - '97'
+  - '98'
+  - '99'
+  - '100'
+  - '101'
+  - '102'
+  - '103'
+  - '104'
+  - '105'
+  - '106'
+  - '107'
+  - '108'
+  - '109'
+  - '110'
+  - '111'
+  - '112'
+  - '113'
+  - '114'
+  - '115'
+  - '116'
+  - '117'
+  - '118'
+  - '119'
+  - '120'
+  - '121'
+  - '122'
+  - '123'
+  - '124'
+  - '125'
+  - '126'
+  - '127'
+  - '128'
+bci_application:
+  applications:
+  - motor_control
+  environment: shielded_room
+cross_validation:
+  cv_method: bootstrapping
+  evaluation_type:
+  - within_subject
+data_processed: true
+data_structure:
+  n_trials: 150
+  trials_context: per_class
+documentation:
+  contact_info:
+  - moritzgw@ieee.org
+  country: DE
+  doi: 10.1109/TBME.2008.2009768
+  institution: Technische Universität München
+  institution_department: Institute of Automatic Control Engineering (LSR)
+  investigators:
+  - Moritz Grosse-Wentrup
+  - Christian Liefhold
+  - Klaus Gramann
+  - Martin Buss
+  keywords:
+  - Beamforming
+  - brain-computer interfaces
+  - common spatial patterns
+  - electroencephalography
+  - motor imagery
+  - spatial filtering
+  license: CC-BY-4.0
+  publication_year: 2009
+  repository: Zenodo
+  senior_author: Martin Buss
+experiment:
+  class_labels:
+  - right_hand
+  - left_hand
+  events:
+    left_hand: 1
+    right_hand: 2
+  feedback_type: none
+  hed_tags:
+    left_hand: (Sensory-event, Experimental-stimulus, Visual-presentation, (Leftward, Arrow)), (Agent-action, (Imagine, Move,
+      (Left, Hand)))
+    right_hand: (Sensory-event, Experimental-stimulus, Visual-presentation, (Rightward, Arrow)), (Agent-action, (Imagine,
+      Move, (Right, Hand)))
+  instructions: Subjects were instructed to perform haptic motor imagery of the left or the right hand during display of the
+    arrow, as indicated by the direction of the arrow
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: arrow_cue
+  study_design: two-class motor imagery with arrow cues
+  synchronicity: synchronous
+  task_type: motor_imagery
+  tasks:
+  - motor_imagery
+  trial_duration: 10
+file_format: set
+paradigm_specific:
+  cue_duration_s: 7.0
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 7.0
+  imagery_tasks:
+  - left_hand
+  - right_hand
+participants:
+  age_mean: 25.6
+  age_std: 2.5
+  bci_experience: mixed
+  gender:
+    female: 2
+    male: 8
+  handedness:
+    right: 8
+  health_status: healthy
+  n_subjects: 10
+  species: human
+preprocessing:
+  artifact_methods:
+  - none
+  data_state: preprocessed
+  notes: No trials were rejected and no artifact correction was performed. Data were re-referenced to common average reference
+    offline.
+  preprocessing_applied: true
+  re_reference: car
+runs_per_session: 1
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - Logistic Regression
+  feature_extraction:
+  - CSP
+  - Beamforming
+  - Laplacian
+  - Bandpower
+  frequency_bands:
+    analyzed_range:
+    - 7.0
+    - 30.0
+  spatial_filters:
+  - CSP
+  - Beamforming
+  - Laplacian
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Motor
