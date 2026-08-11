@@ -1,0 +1,65 @@
+{
+ "dataset": "nm000145",
+ "moabb_class": "GrosseWentrup2009",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.GrosseWentrup2009.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-munichmi-data/zenodo/1217449",
+ "license": "CC-BY-4.0",
+ "doi": "10.1109/TBME.2008.2009768",
+ "naming": "upstream_filenames_restored",
+ "n_files": 10,
+ "total_bytes": 67441248,
+ "files": [
+  {
+   "file": "subject1.set",
+   "bytes": 6919032,
+   "sha256": "0607e716bdbe61c57ec83095d7492f52ba472c8b0c99485bb6378ec856dda91a"
+  },
+  {
+   "file": "subject10.set",
+   "bytes": 6715808,
+   "sha256": "19b865b8876e081f41375e71fff30aa7c54751716883909597dcca76ffa5b64d"
+  },
+  {
+   "file": "subject2.set",
+   "bytes": 6728224,
+   "sha256": "60300f1869042cd081db5f8061b396110045d4785530cf28a3f934ec09c6248b"
+  },
+  {
+   "file": "subject3.set",
+   "bytes": 6766032,
+   "sha256": "2048ba2d936117a0588843ac7c89381a0be0f0567809147518512c1eb7a77842"
+  },
+  {
+   "file": "subject4.set",
+   "bytes": 6723432,
+   "sha256": "6470303bbe2d43bf1f0e11d638e9a3da2b0085c20a3c13675f5b967952a35330"
+  },
+  {
+   "file": "subject5.set",
+   "bytes": 6727424,
+   "sha256": "561fef20ff38f4587e48a786a9d661b531d6248aaf3f5be0eea5314f2f959146"
+  },
+  {
+   "file": "subject6.set",
+   "bytes": 6713576,
+   "sha256": "d8f1fbb094ca9a312c33eddbe5b5bae7d99105368294bec1ab11d65a0ffca17c"
+  },
+  {
+   "file": "subject7.set",
+   "bytes": 6710768,
+   "sha256": "6ec08bebec79a59e5fc95efff8e9af0a2536363ef41b96a7c5b7ed941e8f75ce"
+  },
+  {
+   "file": "subject8.set",
+   "bytes": 6716608,
+   "sha256": "fa4bcd3dac530da015566ca2d20ff828fe5c0dad0d8a9ae266ec8e50a697181c"
+  },
+  {
+   "file": "subject9.set",
+   "bytes": 6720344,
+   "sha256": "2d0e509bb807bd3c43b1514ae9661b47cf5688a0169cd4295a28d8dba2a26869"
+  }
+ ]
+}
