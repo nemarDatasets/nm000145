@@ -1,0 +1,86 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Moritz Grosse-Wentrup": {},
+    "Christian Liefhold": {},
+    "Klaus Gramann": {},
+    "Martin Buss": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1109/TBME.2008.2009768",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000145",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000145",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Munich Motor Imagery dataset",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "5.9 GB (23 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "The Munich Motor Imagery dataset comprises EEG recordings from 10 healthy subjects performing two-class motor imagery tasks (left and right hand) cued by visual arrow stimuli. Recorded at 500 Hz using 128 channels with a standard 10-20 montage, the dataset includes 150 trials per subject and has been preprocessed with common average re-referencing. This dataset is widely used for benchmarking brain-computer interface algorithms including common spatial patterns, beamforming, and other spatial filtering techniques.",
+  "methods_description": "EEG data were acquired at 500 Hz sampling rate using 128 channels arranged in a standard 10-20 montage with reference at Cz. Subjects performed motor imagery of left or right hand movements in response to directional arrow cues presented for 7 seconds. Data were preprocessed offline with common average re-referencing (CAR) and no artifact rejection was applied. The dataset includes 150 trials total, with equal distribution across the two imagery classes.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "common spatial patterns"
+    },
+    {
+      "term": "beamforming"
+    },
+    {
+      "term": "spatial filtering"
+    },
+    {
+      "term": "EEG"
+    }
+  ],
+  "source_hash": "a07e7783622c82345b6f580649a56b85b910a3566d1e289add4049c1180ea3dc"
+}
