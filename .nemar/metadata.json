@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Munich Motor Imagery dataset",
-  "description": "The Munich Motor Imagery dataset comprises electroencephalographic recordings from 10 healthy subjects performing two-class motor imagery tasks (left and right hand) cued by visual arrow stimuli. The dataset includes 128-channel EEG data sampled at 500 Hz with preprocessed signals suitable for brain-computer interface research and benchmarking of spatial filtering and classification methods.",
-  "methods_description": "EEG data were acquired using a 128-channel BrainAmp system at 500 Hz sampling rate with reference at Cz and standard 10-20 montage. Subjects performed motor imagery tasks during 7-second cue periods indicated by directional arrows. Data were preprocessed with common average reference re-referencing and no artifact rejection applied.",
+  "description": "EEG recordings from 10 healthy participants performing two-class motor imagery (left vs. right hand) cued by arrows. Data were recorded with a 128-channel BrainAmp system at 500 Hz, with 150 trials per participant in a single session. The dataset was collected to evaluate beamforming and spatial filtering approaches (e.g., CSP, Laplacian) for noninvasive brain-computer interfaces.",
+  "methods_description": "128-channel EEG was recorded with a BrainAmp amplifier at 500 Hz, referenced to Cz, with impedances below 10 kOhm. Participants performed haptic motor imagery of the left or right hand for 7 s in response to an arrow cue in a shielded room, without feedback. Data were re-referenced offline to the common average, and no trials were rejected.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,16 +19,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
       "term": "motor imagery"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "beamforming"
     },
     {
       "term": "common spatial patterns"
-    },
-    {
-      "term": "beamforming"
     },
     {
       "term": "spatial filtering"
@@ -67,7 +69,7 @@
     "eeg"
   ],
   "sizes": [
-    "5.9 GB (23 files)"
+    "5.49 GB (23 files)"
   ],
   "formats": [
     ".bdf",
