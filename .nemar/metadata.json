@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Munich Motor Imagery dataset",
-  "description": "EEG recordings from 10 healthy participants performing two-class motor imagery (left vs. right hand) cued by arrows. Data were recorded with a 128-channel BrainAmp system at 500 Hz, with 150 trials per participant in a single session. The dataset was collected to evaluate beamforming and spatial filtering approaches (e.g., CSP, Laplacian) for noninvasive brain-computer interfaces.",
-  "methods_description": "128-channel EEG was recorded with a BrainAmp amplifier at 500 Hz, referenced to Cz, with impedances below 10 kOhm. Participants performed haptic motor imagery of the left or right hand for 7 s in response to an arrow cue in a shielded room, without feedback. Data were re-referenced offline to the common average, and no trials were rejected.",
+  "description": "EEG recordings from 10 healthy participants performing two-class motor imagery (left vs. right hand) cued by arrow stimuli. Data were acquired with a 128-channel BrainAmp system at 500 Hz, with 150 trials per class. The dataset was originally collected to evaluate beamforming and spatial filtering approaches (CSP, Laplacian) for noninvasive brain-computer interfaces, and is distributed here in BIDS format via MOABB.",
+  "methods_description": "128-channel EEG was recorded with a BrainAmp amplifier at 500 Hz, referenced to Cz, with impedances below 10 kOhm, in a shielded room. Participants imagined haptic movements of the left or right hand during arrow cue display (7 s). Data were re-referenced offline to common average reference with no trial rejection or artifact correction.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -69,10 +69,11 @@
     "eeg"
   ],
   "sizes": [
-    "5.49 GB (23 files)"
+    "12.70 GB (33 files)"
   ],
   "formats": [
     ".bdf",
+    ".fdt",
     ".html",
     ".json",
     ".md",
@@ -81,5 +82,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "c4df46d46f0de4d4bb68a37ac1a5aa1a97046b501e99825839042d5bea28996d"
+  "source_hash": "af3d214ab9e4e7011ef02b295fbed8fee798c543558b570b197b9cdd35129234"
 }
