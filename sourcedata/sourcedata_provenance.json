@@ -8,8 +8,8 @@
  "license": "CC-BY-4.0",
  "doi": "10.1109/TBME.2008.2009768",
  "naming": "upstream_filenames_restored",
- "n_files": 10,
- "total_bytes": 67441248,
+ "n_files": 20,
+ "total_bytes": 7813315168,
  "files": [
   {
    "file": "subject1.set",
@@ -70,7 +70,86 @@
    "bytes": 6720344,
    "sha256": "2d0e509bb807bd3c43b1514ae9661b47cf5688a0169cd4295a28d8dba2a26869",
    "subject": "9"
+  },
+  {
+   "file": "subject1.fdt",
+   "bytes": 797870080,
+   "sha256": "dac37a3cdd6ae2b9f282e2f19fdce7e272e1fc091b83da61eade284eb2012892",
+   "subject": "1",
+   "url": "https://zenodo.org/record/1217449/files/subject1.fdt"
+  },
+  {
+   "file": "subject10.fdt",
+   "bytes": 770969600,
+   "sha256": "e029c3342e3f5267f68146611f51afd0710aeb68405802316b53058120f2b947",
+   "subject": "10",
+   "url": "https://zenodo.org/record/1217449/files/subject10.fdt"
+  },
+  {
+   "file": "subject2.fdt",
+   "bytes": 771676160,
+   "sha256": "6fbe7431abc8f2f7bd7059fa2d966702e0c90be82726821a920e88f8139f772f",
+   "subject": "2",
+   "url": "https://zenodo.org/record/1217449/files/subject2.fdt"
+  },
+  {
+   "file": "subject3.fdt",
+   "bytes": 777205760,
+   "sha256": "7ae321a39e2d0a4863c4adbece8b3643faa570328ac367a32b7d532d61352e7d",
+   "subject": "3",
+   "url": "https://zenodo.org/record/1217449/files/subject3.fdt"
+  },
+  {
+   "file": "subject4.fdt",
+   "bytes": 772147200,
+   "sha256": "fe4d1ce40cae6b6512f28d1fae99fc7ef8da022bd2290e3c2143b9c33787cb5c",
+   "subject": "4",
+   "url": "https://zenodo.org/record/1217449/files/subject4.fdt"
+  },
+  {
+   "file": "subject5.fdt",
+   "bytes": 771573760,
+   "sha256": "1e848a414466b39d63176f4fd845994c5dbb208f1ab615da54bac7404b645333",
+   "subject": "5",
+   "url": "https://zenodo.org/record/1217449/files/subject5.fdt"
+  },
+  {
+   "file": "subject6.fdt",
+   "bytes": 771276800,
+   "sha256": "077a0e232b980c6c19be051049963b80cf806fc28aefbaac37bf2678ec29bbd3",
+   "subject": "6",
+   "url": "https://zenodo.org/record/1217449/files/subject6.fdt"
+  },
+  {
+   "file": "subject7.fdt",
+   "bytes": 771409920,
+   "sha256": "b2eff42be59f0f25a2df9c07a6a2b4369400cc1cda17aef6313fe775acfde4d1",
+   "subject": "7",
+   "url": "https://zenodo.org/record/1217449/files/subject7.fdt"
+  },
+  {
+   "file": "subject8.fdt",
+   "bytes": 770385920,
+   "sha256": "f205f094568376501ab01298f347407179408d30bd34b4fe0190925b9a4fee21",
+   "subject": "8",
+   "url": "https://zenodo.org/record/1217449/files/subject8.fdt"
+  },
+  {
+   "file": "subject9.fdt",
+   "bytes": 771358720,
+   "sha256": "6019817f563216f3b69b32e94754c1fe1d112587c8a395c387a0b59e462820d5",
+   "subject": "9",
+   "url": "https://zenodo.org/record/1217449/files/subject9.fdt"
   }
  ],
- "n_subjects_recorded": 10
+ "n_subjects_recorded": 10,
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.3",
+   "added_files": 10,
+   "added_bytes": 7745873920,
+   "note": "Added the subjectN.fdt sample file of each header (10 files, 7745873920 bytes); the original sourcedata snapshot held only the 10 EEGLAB headers (subjectN.set). Source: Zenodo record 1217449 (10.5281/zenodo.1217449), the individual files subjectN.fdt. Each file was downloaded from Zenodo and checked against the size and MD5 the Zenodo API publishes. Every header already in the deposit is byte-identical (SHA-256) to the Zenodo file."
+  }
+ ]
 }

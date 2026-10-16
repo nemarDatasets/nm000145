@@ -1,0 +1,5 @@
+1.0.3 2026-10-16
+  - sourcedata: added the subjectN.fdt sample file of each header for the 10 EEGLAB headers (subjectN.set) already in sourcedata/
+    (10 files, 7,745,873,920 bytes), unchanged from the Zenodo release 10.5281/zenodo.1217449 (the individual files subjectN.fdt).
+    The MOABB loader (moabb.datasets.GrosseWentrup2009) needs them to read a recording from this deposit.
+    No existing file changed; the BIDS tree is unchanged.
